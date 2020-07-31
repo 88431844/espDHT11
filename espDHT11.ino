@@ -27,6 +27,7 @@ Serial.print("-----------");
 }
 
 
+
 //#include "DHT.h" //DHT sensor
 //#define DHTTYPE DHT11
 //uint8_t DHTPin = 2;
@@ -53,7 +54,7 @@ Serial.print("-----------");
 //  Temperature = dht.readTemperature(); // Gets the values of the temperature
 //  Humidity = dht.readHumidity(); // Gets the values of the humidity
 //  Serial.println("------------");
-//  Serial.println("Temperature£º"+String(Temperature));
+//  Serial.println("TemperatureÂ£Âº"+String(Temperature));
 //  Serial.println("Humidity:"+String(Humidity));
 //  delay(2000);
 //}

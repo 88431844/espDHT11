@@ -8,7 +8,7 @@ void setup(){
   Serial.println();
   Serial.println("Status\tHumidity (%)\tTemperature (C)\t(F)\tHeatIndex (C)\t(F)");
 
-  dht.setup(2, DHTesp::DHT11); // Connect DHT sensor to GPIO 17
+  dht.setup(2, DHTesp::DHT11); // Connect DHT sensor to GPIO 2(D4)
 }
 
 void loop()
